@@ -1,0 +1,193 @@
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu portfólio</title>
+
+        <style>
+        body {
+            background-color:thistle;
+        }
+    </style>
+
+</head>
+<body>
+
+    <header>
+
+        <h1>Felipe Santana - Desenvolvedora Web</h1>
+
+        <p>Estudante de Desenvolvimento de Sistemas</p>
+
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <hr>
+
+    <section id="sobre">
+
+        <h2>Sobre Mim</h2>
+
+        <img src="assets/imagem.png"
+             alt="Foto de perfil"
+             width="150"
+             height="150">
+
+        <p>
+            Sou estudante de <strong>Desenvolvimento de Sistemas</strong> no SENAI.
+        </p>
+
+        <p>
+            Tenho conhecimento em <em>HTML</em>, <em>CSS</em> e estou aprendendo
+            <em>JavaScript</em>.
+        </p>
+
+        <h3>Minhas Habilidades:</h3>
+
+        <ul>
+            <li>HTML5 Semântico</li>
+            <li>CSS3 e Responsividade</li>
+            <li>Formulários e Validação</li>
+            <li>Estruturação de Dados</li>
+        </ul>
+
+    </section>
+
+    <hr>
+
+    <section id="projetos">
+
+        <h2>Meus Projetos</h2>
+
+        <table border="1" cellpadding="10" cellspacing="0">
+
+            <thead>
+                <tr>
+                    <th>Projeto</th>
+                    <th>Tecnologias</th>
+                    <th>Status</th>
+                    <th>Link</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>Projeto filme</td>
+                    <td>HTML, CSS</td>
+                    <td>Concluído</td>
+                    <td>
+                        <a href="https://github.com/santanasenai67-creator/Projeto_Filme">Ver Projeto</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Loja Retro Games</td>
+                    <td>HTML, CSS,<br>JavaScript</td>
+                    <td>Concluído</td>
+                    <td>
+                        <a href="https://github.com/santanasenai67-creator/Projeto---Game-Zone-Retro">Ver Projeto</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Banco Itaú</td>
+                    <td>HTML, CSS,<br>JavaScript</td>
+                    <td>Concluído</td>
+                    <td>
+                        <a href="https://github.com/santanasenai67-creator/Atividade-Identidade-Visual-Ita-">Ver Projeto</a>
+                    </td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </section>
+
+    <hr>
+
+    <section id="contato">
+
+        <h2>Entre em Contato</h2>
+
+        <form>
+
+            <fieldset>
+
+                <legend>Dados do Contato</legend>
+
+                <p>
+                    <label for="nome">Nome:</label><br>
+                    <input type="text" id="nome" name="nome">
+                </p>
+
+                <p>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email">
+                </p>
+
+                <p>
+                    <label for="assunto">Assunto:</label><br>
+
+                    <select id="assunto" name="assunto">
+
+                        <option value="oportunidade">
+                            Oportunidade de Trabalho
+                        </option>
+
+                        <option value="duvida">
+                            Dúvida
+                        </option>
+
+                        <option value="projeto">
+                            Projeto
+                        </option>
+
+                    </select>
+                </p>
+
+                <p>
+                    <label for="mensagem">Mensagem:</label><br>
+
+                    <textarea id="mensagem"
+                              name="mensagem"
+                              rows="5"
+                              cols="30"></textarea>
+                </p>
+
+                <button type="submit">Enviar Mensagem</button>
+
+            </fieldset>
+
+        </form>
+
+    </section>
+
+    <footer>
+
+        <p>
+            &copy; 2026. Desenvolvido durante o curso do SENAI.
+        </p>
+
+        <p>
+            <a href="mailto:felipe.pauferro@edu.senai.br">
+                felipe.pauferro@edu.senai.br
+            </a>
+            |
+            <a href="tel:+5511999996660">
+                (11) 916123960
+            </a>
+        </p>
+    </footer>
+</body>
+</html>
